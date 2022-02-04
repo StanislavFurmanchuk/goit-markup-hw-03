@@ -1,0 +1,196 @@
+:root {
+  --primary-text-color: #212121;
+  --secondary-text-color: #ffffff;
+  --extra-text-color: #757575;
+  --button-bg-color: #f5f4fa;
+  --focus-color: #2196f3;
+  --footer-contacts-color: rgba(255, 255, 255, 0.6);
+  --hero-footer-bg-color: #2f303a;
+}
+/* Общие стили */
+body {
+  background-color: #fff;
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* Стили заголовков секций */
+.section-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+/* Стили хедера */
+
+.site-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+.site-nav-link:focus,
+.site-nav-link:hover {
+  color: var(--focus-color);
+}
+.auth-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--extra-text-color);
+}
+.auth-nav-link:focus,
+.auth-nav-link:hover {
+  color: var(--focus-color);
+}
+.header-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: #000;
+}
+.colorised-text-logo {
+  color: var(--focus-color);
+}
+
+/* Стили шапки */
+.hero {
+  background-color: var(--hero-footer-bg-color);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+.button-order {
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 2;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--secondary-text-color);
+  background-color: var(--focus-color);
+}
+.button-order:focus,
+.button-order:hover {
+  background-color: #188ce8;
+}
+
+/* Особенности */
+
+.section-subtitle {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.feture {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--extra-text-color);
+}
+
+/* Наша команда */
+.section-team {
+  background-color: var(--button-bg-color);
+}
+.person-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.person-profession {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--extra-text-color);
+}
+/* Стили портфолио */
+/* Кнопки фильтра */
+.filter-button {
+  cursor: pointer;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color);
+  background-color: var(--button-bg-color);
+}
+.filter-button:focus,
+.filter-button:hover {
+  color: var(--secondary-text-color);
+  background-color: var(--focus-color);
+}
+
+/* Примері работ */
+.project-example {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-info {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 0.03em;
+  color: var(--extra-text-color);
+}
+
+/* Стили футтера */
+.footer {
+  background-color: var(--hero-footer-bg-color);
+}
+.footer-contacts-logo {
+  font-family: Raleway, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.footer-contacts-adress {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color);
+}
+.footer-contacts-link {
+  font-family: Roboto, sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--footer-contacts-color);
+}
+.footer-contacts-link:focus,
+.footer-contacts-link:hover {
+  color: var(--focus-color);
+}
